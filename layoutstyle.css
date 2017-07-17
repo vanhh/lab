@@ -1,0 +1,35 @@
+/* Layout Styles - Anh Pham - s3557184 */
+#wrapper {
+  background: #0369B7;
+  width: 960px;
+  position: relative;
+  border: 1px solid #000000 /*black border*/
+  margin: auto;
+}
+
+#header {
+  height: 140px;
+  padding: .5em;
+  background-color: yellow;
+  border-bottom: 3px solid #0369B7;
+}
+
+#footer {
+  clear: both;
+  height: 70px;
+  background-color:red;
+  border-top: 3px solid #0369B7;
+  clear: both
+}
+
+#leftmenu {
+  width: 200px;
+  float: left;
+}
+
+#content {
+  background-color: lime;
+  border-left: 3px solid #0369B7;
+  margin-left: 200px;
+  padding: 1em;
+}
