@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="layoutstyle.css"/>
   </head>
   <body>
+    <?php include ("header.php"); ?>
     <!-- Start of the page section -->
     <div id="wrapper">
       <div>
@@ -15,6 +16,7 @@
 <!-- Start of the page section -->
       <div>
         <!-- <h2 id"leftmenu">Left Nagivation</h2>-->
+        <?php include ("menu.php"); ?>
         Option 2 <br />
         Option 3 <br />
         Option 4 <br />
