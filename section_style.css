@@ -1,0 +1,58 @@
+/* sizes
+#wrapper > div { min-height: 450px; }
+
+#header,
+#footer {
+    min-height: 40px;
+}
+
+.info { min-height: 80px; }
+*/
+/* layout */
+#header {
+  height: 140px;
+  padding: .5em;
+  background-color: yellow;
+  border-bottom: 3px solid #0369B7;
+}
+#footer {
+  clear: both;
+  height: 70px;
+  background-color:red;
+  border-top: 3px solid #0369B7;
+  clear: both
+}
+
+#wrapper {
+  background: #0369B7;
+  width: 960px;
+  position: relative;
+  border: 1px solid #000000 /*black border*/
+  margin: auto;
+    /* overflow to handle inner floating block */
+  overflow: hidden;
+}
+
+#leftmenu {
+    float: left;
+    width: 30%;
+}
+
+#content {
+    float: right;
+    width: 70%;
+    background-color: lime;
+    border-left: 3px solid #0369B7;
+    margin-left: 200px;
+    padding: 1em;
+}
+
+#info-wrap {
+    /* overflow to handle inner floating block */
+    overflow: hidden;
+}
+
+.info {
+    width: 50%;
+    float: left;
+}

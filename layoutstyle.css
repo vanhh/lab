@@ -33,3 +33,8 @@
   margin-left: 200px;
   padding: 1em;
 }
+
+img {
+  float: right;
+  margin: 4px;
+}
