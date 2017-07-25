@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>User Registration</title>
+    <style>
+      h1{
+        font-family: cursive;
+        font-weight: bold;
+      }
+
+      [type=text] {
+        margin-top: 20px;
+        padding: 8px;
+        width: 50%;
+      }
+
+      [type=radio] {
+        margin-top: 20px;
+        width: 7%;
+      }
+
+      label {
+        font-size: 18px;
+      }
+
+      div.box {
+        outline-style: solid;
+        outline-color: #D8D6D6;
+        margin:30px 100px 30px 100px;
+        padding: 20px;
+        position: relative;
+      }
+
+      button {
+        border: none
+        color: #FFFF;
+        background-color: #4CAF50;
+        padding: 10px 30px;
+        font-size: 16px;
+        margin-left: 140px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Register </h1>
+
+    <div class="box">
+      <form id="user_form_signup" name="user_form_signup" method="post" action="register_userinfo.php">
+        <!-- firstname form -->
+        <label>First name:
+          <input type="text" name="firstname" value="" placeholder="First Name" style="margin-left:60px;">
+        </label></br>
+        <!-- lastname -->
+        <label>Last name:
+          <input type="text" name="lastname" value="" placeholder="Last Name" style="margin-left:61px;"/>
+        </label></br>
+        <!--Gender-->
+        <label>Gender
+          <input type="radio" name="gender" value="Female" style="margin-left:85px;"/>Female
+          <input type="radio" name="gender" value="Male" style="margin-left:100px;"/>Male
+        </label></br>
+        <!--Address-->
+        <label>Address: <input type="text" name="address" value="" placeholder="Your Address" style="margin-left:75px;"/>
+        </label></br>
+        <!--City -->
+        <label>City:
+          <select name="City" style="margin-left: 105px; margin-top:20px; width:52%">
+            <option value="city">Selec a city</option>
+            <option value="HCMC">Ho Chi Minh City</option>
+            <option value="Hanoi">Hanoi</option>
+            <option value="Danang">Da Nang></option>
+            <option value="Cantho">Can Tho</option>
+            <option value="Nhatrang">Nha Trang</option>
+          </select>
+        </label></br>
+        <!-- phone number -->
+        <label>Phone Number:
+          <input type="number" name="phone" placeholder="Phone number" style="margin-left: 27px; margin-top:20px;width:51%" />
+        </label></br>
+        <!--email-->
+        <label> Email:
+          <input type="text" name="email" placeholder="example@email.com" style="margin-left: 90px; margin-top:20px;"/></br>
+        </label><br>
+
+        <!--password form -->
+        <label>Password:
+          <input type="password" name="password" value="" placeholder="enter your password" style="margin-left: 65px; margin-top:20px; margin-bottom:20px; width:51%"> </br>
+        </label>
+
+        <!-- submit button-->
+        <button type="submit">Register </button>
+      </form>
+    </div>
+
+
+
+  </body>
+</html>
